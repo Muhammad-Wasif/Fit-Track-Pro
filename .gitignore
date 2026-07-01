@@ -1,5 +1,31 @@
+# Environment / secrets — NEVER commit
+.env
+
+# Build output
 bin/
 obj/
+
+# Visual Studio
 .vs/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+jb/
+*.DotSettings.user
+
+# Temporary / system
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+
+# Archives committed to repo (clean these out)
+dm.zip
+*.zip
+
+# Test results
+TestResults/

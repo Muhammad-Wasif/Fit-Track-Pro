@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>FitTrackPro</AssemblyName>
+    <RootNamespace>FitTrackPro</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <!--
+    NuGet packages required:
+      1. Microsoft.Data.SqlClient    — SQL Server driver (replaces System.Data.SqlClient)
+      2. BCrypt.Net-Next             — Secure password hashing
+  -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="ReaLTaiizor" Version="3.8.1.8" />
+  </ItemGroup>
+
+  <!--  Namespaces used throughout the project  -->
+  <ItemGroup>
+    <Using Include="FitTrack.GUI" />
+    <Using Include="FitTrack.GUI.Controls" />
+    <Using Include="FitTrack.Models" />
+    <Using Include="FitTrack.Database" />
+    <Using Include="FitTrack.Services" />
+  </ItemGroup>
+
+  <!--  Embed app manifest for high-DPI awareness  -->
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <!-- Automatically copy configuration, SQL, and CSV files to the build output directory -->
+  <ItemGroup>
+    <None Include=".env" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Data\FitTrackOOP_Schema.sql" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Data\FoodItems.csv" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

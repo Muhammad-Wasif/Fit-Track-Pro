@@ -1,0 +1,92 @@
+FoodCategoryId,GoalId,FoodName,CaloriesPer100g,ProteinPer100g,CarbsPer100g,FatPer100g,FiberPer100g
+1,,Chicken Breast (Cooked),165,31.0,0.0,3.6,0.0
+1,,Turkey Breast,135,30.1,0.0,1.0,0.0
+1,,Tuna (Canned in Water),116,25.5,0.0,0.8,0.0
+1,,Salmon (Baked),208,20.4,0.0,13.4,0.0
+1,,Tilapia (Grilled),128,26.2,0.0,2.7,0.0
+1,,Egg Whites,52,10.9,0.7,0.2,0.0
+1,,Whole Eggs,155,12.6,1.1,10.6,0.0
+1,,Cottage Cheese (Low Fat),72,12.4,2.7,1.0,0.0
+1,,Greek Yogurt (Plain),59,10.0,3.6,0.4,0.0
+1,,Whey Protein Powder,400,80.0,10.0,5.0,2.0
+1,,Beef (Lean Mince 95%),152,21.4,0.0,7.0,0.0
+1,,Pork Tenderloin,143,26.2,0.0,3.5,0.0
+1,,Shrimp,99,24.0,0.2,0.3,0.0
+1,,Sardines (in Water),208,24.6,0.0,11.5,0.0
+1,,Tofu (Firm),76,8.0,1.9,4.8,0.3
+2,,Brown Rice (Cooked),123,2.7,25.6,1.0,1.6
+2,,White Rice (Cooked),130,2.7,28.6,0.3,0.4
+2,,Oats (Rolled Dry),389,16.9,66.3,6.9,10.6
+2,,Sweet Potato (Baked),90,2.0,20.7,0.1,3.3
+2,,Quinoa (Cooked),120,4.4,21.3,1.9,2.8
+2,,Pasta (Cooked Wholegrain),158,5.5,31.0,0.9,3.9
+2,,Bread (Wholegrain),247,13.0,41.0,4.2,7.0
+2,,Potato (Boiled),87,1.9,20.1,0.1,1.8
+2,,Lentils (Cooked),116,9.0,20.1,0.4,7.9
+2,,Chickpeas (Cooked),164,8.9,27.4,2.6,7.6
+2,,Kidney Beans (Cooked),127,8.7,22.8,0.5,6.4
+2,,Black Beans (Cooked),132,8.9,23.7,0.5,8.7
+2,,Corn (Cooked),86,3.3,19.0,1.4,2.4
+2,,Bagel (Plain),245,9.9,47.8,1.6,1.7
+2,,Pita Bread (Whole Wheat),265,9.0,53.0,1.2,5.0
+3,,Avocado,160,2.0,8.5,14.7,6.7
+3,,Olive Oil,884,0.0,0.0,100.0,0.0
+3,,Almonds,579,21.2,21.6,49.9,12.5
+3,,Walnuts,654,15.2,13.7,65.2,6.7
+3,,Peanut Butter (Natural),588,25.1,20.0,50.4,6.0
+3,,Chia Seeds,486,16.5,42.1,30.7,34.4
+3,,Flaxseeds,534,18.3,28.9,42.2,27.3
+3,,Cashews,553,18.2,30.2,43.9,3.3
+3,,Sunflower Seeds,584,20.8,20.0,51.5,8.6
+3,,Coconut Oil,862,0.0,0.0,100.0,0.0
+4,,Broccoli (Steamed),35,2.8,7.2,0.4,2.6
+4,,Spinach (Raw),23,2.9,3.6,0.4,2.2
+4,,Kale (Raw),49,4.3,8.8,0.9,3.6
+4,,Bell Pepper (Red),31,1.0,6.0,0.3,2.1
+4,,Cucumber,16,0.7,3.6,0.1,0.5
+4,,Tomato,18,0.9,3.9,0.2,1.2
+4,,Asparagus,20,2.2,3.9,0.1,2.1
+4,,Zucchini,17,1.2,3.1,0.3,1.0
+4,,Cauliflower,25,1.9,5.0,0.3,2.0
+4,,Green Beans,31,1.8,7.1,0.1,3.4
+4,,Mushrooms (White),22,3.1,3.3,0.3,1.0
+4,,Lettuce (Romaine),17,1.2,3.3,0.3,2.1
+4,,Celery,16,0.7,3.0,0.2,1.6
+4,,Carrot (Raw),41,0.9,9.6,0.2,2.8
+4,,Onion,40,1.1,9.3,0.1,1.7
+4,,Garlic,149,6.4,33.1,0.5,2.1
+5,,Banana,89,1.1,22.8,0.3,2.6
+5,,Apple,52,0.3,13.8,0.2,2.4
+5,,Blueberries,57,0.7,14.5,0.3,2.4
+5,,Strawberries,32,0.7,7.7,0.3,2.0
+5,,Orange,47,0.9,11.8,0.1,2.4
+5,,Mango,60,0.8,15.0,0.4,1.6
+5,,Watermelon,30,0.6,7.6,0.2,0.4
+5,,Grapes,69,0.7,18.1,0.2,0.9
+5,,Pineapple,50,0.5,13.1,0.1,1.4
+5,,Raspberry,52,1.2,11.9,0.7,6.5
+6,,Milk (Whole),61,3.2,4.8,3.3,0.0
+6,,Milk (Skim),34,3.4,5.0,0.1,0.0
+6,,Cheddar Cheese,402,25.0,1.3,33.3,0.0
+6,,Mozzarella,280,28.0,2.2,17.1,0.0
+6,,Low Fat Yogurt,63,5.3,7.0,1.6,0.0
+6,,Butter,717,0.9,0.1,81.1,0.0
+7,,Green Tea (Brewed),1,0.2,0.2,0.0,0.0
+7,,Black Coffee,2,0.3,0.0,0.0,0.0
+7,,Orange Juice (Fresh),45,0.7,10.4,0.2,0.2
+7,,Coconut Water,19,0.7,3.7,0.2,1.1
+7,,Almond Milk (Unsweetened),13,0.4,0.3,1.0,0.3
+7,,Protein Shake (Mixed),120,25.0,5.0,2.0,1.0
+8,,Rice Cake,387,7.3,81.5,3.0,1.0
+8,,Dark Chocolate (85%),598,12.0,45.9,42.6,10.9
+8,,Hummus,166,7.9,14.3,9.6,6.0
+8,,Boiled Egg,155,12.6,1.1,10.6,0.0
+9,,Cornflakes,357,7.1,83.6,0.6,2.4
+9,,Bran Flakes,318,9.1,68.6,2.1,9.5
+9,,Granola,471,12.9,64.0,17.8,6.4
+10,,Vegetable Stir Fry,75,3.2,9.5,2.8,2.5
+10,,Chicken & Rice,165,18.0,18.0,2.5,1.0
+10,,Mixed Bean Salad,120,6.5,17.5,2.0,5.5
+11,,Chicken Broth,15,1.0,1.1,0.5,0.0
+11,,Vegetable Soup,72,2.2,13.0,0.9,2.8
+11,,Lentil Soup,99,6.3,17.4,0.4,3.7
