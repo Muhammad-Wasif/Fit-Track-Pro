@@ -208,3 +208,4 @@ GUI layer  →  calls  →  Service layer  →  calls  →  Repository layer  �
 - **Trainer lock** enforced at service + DB level (`TrainerLocked` bit column).
 - **Streak** updated on every successful login; resets if a day is missed.
 - **Calorie warning** shown inline but never blocks food logging (spec §12).
+
